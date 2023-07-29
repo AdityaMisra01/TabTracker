@@ -1,2 +1,2 @@
 # TabTrackr
-This a chrome extension 
+This is a Chrome extension 
