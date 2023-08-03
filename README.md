@@ -6,6 +6,6 @@ export them as JSON files.
 
 ## To delete every lead from the lead list double-click on the "delete all" button
 
-# To load this extension in your Chrome browser then click the link below.
+# To load this extension in your Chrome browser click the link below.
 
 https://scribehow.com/shared/How_to_load_the_extension__l338giR3Sv6x84IiTzSxQQ
