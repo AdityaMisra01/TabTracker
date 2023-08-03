@@ -1,43 +1,101 @@
-body {
-    margin: 0;
-    padding: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    min-width: 400px;
-}
 
-input {
-    width: 100%;
-    padding: 10px;
-    box-sizing: border-box;
-    border: 1px solid #5f9341;
-    margin-bottom: 4px;
-}
+    /* Reset styles */
+    body {
+      margin: 0;
+      padding: 10px;
+      font-family: Arial, Helvetica, sans-serif;
+      min-width: 400px;
+    }
 
-button {
-    background: #5f9341;
-    color: white;
-    padding: 10px 20px;
-    border: 1px solid #5f9341;
-    font-weight: bold;
-}
+    /* Styling for the input and buttons */
+    input {
+      width: 100%;
+      padding: 10px;
+      box-sizing: border-box;
+      border: 1px solid #5f9341;
+      margin-bottom: 4px;
+      margin-top: 5px;
+      border-radius: 4px;
+    }
 
-#delete-btn {
-    background: white;
-    color: #5f9341;
-}
+    button {
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      font-weight: bold;
+      cursor: pointer;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      transition: background-color 0.3s ease;
+    }
 
-ul {
-    margin-top: 20px;
-    list-style: none;
-    padding-left: 0;
-}
+    /* Color the "SAVE INPUT" button with the soft blue-green shade */
+    #input-btn {
+      background: orange;
+    }
 
-li {
-    margin-top: 5px;
-}
+    /* Color the "SAVE TAB" button with the soft coral red shade */
+    #tab-btn {
+      background: mediumblue;
+    }
 
-a {
-    color: #5f9341;
-}
+    /* Color the "DELETE ALL" button with the soft blue-green shade */
+    #delete-btn {
+      background: orangered;
+    }
 
+    /* Color the "EXPORT" button with the soft yellow-green shade */
+    #export-btn {
+      background: yellowgreen;
+      margin-top: 5px;
+    }
 
+    /* Styling for the lead list */
+    ul {
+      margin-top: 20px;
+      list-style: none;
+      padding-left: 0;
+    }
+
+    li {
+      margin-top: 8px;
+      padding: 10px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      display: flex;
+      align-items: center;
+    }
+
+    /* Add a multi-color background for the list items */
+    li:nth-child(odd) {
+      background-color: #78bafc; /* Soft blue-green */
+      
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    li:nth-child(even) {
+      background-color: #f57c7c; /* Soft coral red */
+      
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    /* Styling for the numbers */
+    li span {
+      margin-right: 10px;
+      color: white; /* White color for the numbers to stand out on the background */
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+    /* Styling for the links */
+    li a {
+      color: #333; /* Dark gray color for the links */
+      text-decoration: none;
+    }
+
+    li a:hover {
+      text-decoration: underline;
+      color: #222; /* Darker gray color on hover */
+    }
